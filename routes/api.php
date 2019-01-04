@@ -13,6 +13,11 @@ use Illuminate\Http\Request;
 |
 */
 
+/*
 Route::middleware('auth:api')->get('/user', function (Request $request) {
+	//Ruta de puraba que hace uso del middelware llamado auth y guard llamado api
+	//Quiere decir que si intentamos acceder a la ruta /user de la api debemos estar autenticados con un token
     return $request->user();
 });
+*/
+
