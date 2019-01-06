@@ -28,7 +28,26 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //Reglas de validacion:
+        $rules = [
+            'name' => 'required',
+            'email' => 'required|email|unique:users',
+            'password' => 'required|min:6|confirmed',
+        ];
+        //Esto ejecuta las regleas de validacion contra los datos
+        //si no pasan se genera una escepcion sino sigue el curso del codigo
+        $this->validate($request, $rules);
+
+        $campos = $request->all(); //Asignamos todo el request a una variable campos
+        //Luego sobreescribimos los campos que no deben ser manipulados por el usuario sino internamente
+        $campos['password'] = bcrypt($request->password);
+        $campos['verified'] = User::USUARIO_NO_VERIFICADO;
+        $campos['verification_token'] = User::generarVerificationToken();
+        $campos['admin'] = User::USUARIO_REGULAR;
+
+        $usuario = User::create($campos);
+
+        return response()->json(['data' => $usuario], 201);
     }
 
     /**
