@@ -17,7 +17,9 @@ class UserController extends ApiController
     {
         //Listar todos los recursos(users) disponibles en ese momento
         $usuarios = User::all();
-        return response()->json(['data' => $usuarios], 200);
+        //return response()->json(['data' => $usuarios], 200);
+        //usando el trait:
+        return $this->showAll($usuarios);
     }
 
     /**
@@ -47,7 +49,8 @@ class UserController extends ApiController
 
         $usuario = User::create($campos);
 
-        return response()->json(['data' => $usuario], 201);
+        //return response()->json(['data' => $usuario], 201);
+        return $this->showOne($usuario, 201);
     }
 
     /**
@@ -61,7 +64,8 @@ class UserController extends ApiController
         //Recibe un id y Muestra un usuario especifico
         $usuario = User::findOrFail($id);
 
-        return response()->json(['data' => $usuario], 200);
+        //return response()->json(['data' => $usuario], 200);
+        return $this->showOne($usuario);
     }
 
     /**
@@ -111,7 +115,8 @@ class UserController extends ApiController
 
         $user->save();
 
-        return response()->json(['data' => $user], 200);
+        //return response()->json(['data' => $user], 200);
+        return $this->showOne($user);
     }
 
     /**
@@ -126,6 +131,7 @@ class UserController extends ApiController
 
         $user->delete();
 
-        return response()->json(['data' => $user], 200);
+        //return response()->json(['data' => $user], 200);
+        return $this->showOne($user);
     }
 }

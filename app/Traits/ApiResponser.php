@@ -2,6 +2,9 @@
 
 namespace App\Traits;
 
+use Illuminate\Support\Collection;
+use Illuminate\Database\Eloquent\Model;
+
 trait ApiResponser{
 
 	private function successResponse($data, $code){
@@ -13,11 +16,11 @@ trait ApiResponser{
 	}
 
 	protected function showAll(Collection $collection, $code = 200){
-		return seccessResponse(['data' => $collection], $code);
+		return $this->successResponse(['data' => $collection], $code);
 	}
 
 	protected function showOne(Model $instance, $code = 200){
-		return seccessResponse(['data' => $instance], $code);
+		return $this->successResponse(['data' => $instance], $code);
 	}
 
 }

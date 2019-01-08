@@ -18,7 +18,11 @@ class BuyerController extends ApiController
         $compradores = Buyer::has('transactions')->get(); //Trae los usuarios que tengan trasacciones (buyers) ya que hereda de users
         //has recibe el nombre de una relacion que tenga el modelo
 
-        return response()->json(['data' => $compradores], 200);
+        //antes de hacer uso del trait:
+        //return response()->json(['data' => $compradores], 200);
+
+        //usando el trait:
+        return $this->showAll($compradores);
     }
 
 
@@ -32,7 +36,8 @@ class BuyerController extends ApiController
     {
         $comprador = Buyer::has('transactions')->findOrFail($id);
 
-        return response()->json(['data' => $comprador], 200);
+        //return response()->json(['data' => $comprador], 200);
+        return $this->showOne($comprador);
     }
 
 }
