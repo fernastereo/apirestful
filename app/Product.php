@@ -16,7 +16,7 @@ class Product extends Model
     const PRODUCTO_DISPONIBLE = 'disponible';
     const PRODUCTO_NO_DISPONIBLE = 'no disponible';
 
-    protected $dates = ['delete_at'];
+    protected $dates = ['deleted_at'];
     protected $fillable = [
     	'name',
     	'description',

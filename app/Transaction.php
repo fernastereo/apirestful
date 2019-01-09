@@ -11,7 +11,7 @@ class Transaction extends Model
 {
     use SoftDeletes;
 
-    protected $dates = ['delete_at'];
+    protected $dates = ['deleted_at'];
     protected $fillable = [
     	'quantity',
     	'buyer_id',
