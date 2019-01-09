@@ -60,7 +60,18 @@ class CategoryController extends ApiController
      */
     public function update(Request $request, Category $category)
     {
-        //
+        $category->fill($request->only([ //en versiones anteriores es intersect en lugar de only
+                'name',
+                'description',
+            ])
+        );
+
+        if ($category->isClean()) { //es lo contrario a isDirty (si la instancia no ha cambiado)
+            return $this->errorResponse('Debe especificar al menos un valor diferente para actualizar', 422);
+        }
+
+        $category->save();
+        return $this->showOne($category);
     }
 
     /**

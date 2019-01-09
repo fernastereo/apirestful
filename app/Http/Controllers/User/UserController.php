@@ -109,7 +109,7 @@ class UserController extends ApiController
             $user->admin = $request->admin;
         }
 
-        if (!$user->isDirty()) {
+        if (!$user->isDirty()) {  //isDirty() negado es lo mismo que isClean()
             //return response()->json(['error' => 'Se debe especificar al menos un valor diferente para actualizar', 'code' => 422], 422);
             return $this->errorResponse('Se debe especificar al menos un valor diferente para actualizar', 422);
         }
