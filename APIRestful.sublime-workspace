@@ -143,6 +143,18 @@
 				"Package Control: Install Package"
 			],
 			[
+				"p",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
 				"insta",
 				"Package Control: Install Package"
 			],
@@ -164,10 +176,6 @@
 			],
 			[
 				"Package Control: ",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
 				"Package Control: Install Package"
 			]
 		],
@@ -191,23 +199,16 @@
 	},
 	"expanded_folders":
 	[
-		"/C/laravel/apirestful2",
-		"/C/laravel/apirestful2/app",
-		"/C/laravel/apirestful2/app/Exceptions",
-		"/C/laravel/apirestful2/app/Http",
-		"/C/laravel/apirestful2/app/Http/Controllers",
-		"/C/laravel/apirestful2/app/Http/Controllers/Buyer",
-		"/C/laravel/apirestful2/app/Http/Controllers/Category",
-		"/C/laravel/apirestful2/app/Http/Controllers/Product",
-		"/C/laravel/apirestful2/app/Http/Controllers/Seller",
-		"/C/laravel/apirestful2/app/Http/Controllers/Transaction",
-		"/C/laravel/apirestful2/app/Http/Controllers/User",
-		"/C/laravel/apirestful2/app/Scopes",
-		"/C/laravel/apirestful2/app/Traits",
-		"/C/laravel/apirestful2/routes"
+		"/C/Users/Fernast/Documents/Laravel/apirestful",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app"
 	],
 	"file_history":
 	[
+		"/C/Users/Fernast/AppData/Roaming/Sublime Text 3/Packages/User/PHP Companion.sublime-settings",
+		"/C/Users/Fernast/AppData/Roaming/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/.env",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/Homestead.yaml",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/.env.example",
 		"/C/laravel/apirestful2/app/Http/Controllers/Buyer/BuyerSellerController.php",
 		"/C/laravel/apirestful2/app/Http/Controllers/Transaction/TransactionCategoryController.php",
 		"/C/laravel/apirestful2/app/Http/Controllers/Transaction/TransactionSellerController.php",
@@ -317,8 +318,6 @@
 		"/C/wamp64/www/apirestful/app/Seller.php",
 		"/C/wamp64/www/apirestful/config/database.php",
 		"/C/wamp64/www/apirestful/app/Providers/AppServiceProvider.php",
-		"/C/Users/Fernast/AppData/Roaming/Sublime Text 3/Packages/User/PHP Companion.sublime-settings",
-		"/C/Users/Fernast/AppData/Roaming/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
 		"/C/wamp64/www/apirestful/Vagrantfile",
 		"/C/Windows/System32/drivers/etc/hosts",
 		"/C/wamp64/www/myapp/app/Http/Controllers/ArticleController.php",
@@ -332,14 +331,11 @@
 		"/C/wamp64/www/myapp/phpunit.xml",
 		"/C/wamp64/www/myapp/config/database.php",
 		"/C/wamp64/www/myapp/app/Exceptions/Handler.php",
-		"/C/wamp64/www/myapp/routes/console.php",
-		"/C/wamp64/www/myapp/database/migrations/2018_12_02_173020_adds_api_token_to_users_table.php",
-		"/C/wamp64/www/myapp/database/migrations/2018_12_01_201019_create_articles_table.php",
-		"/C/wamp64/www/myapp/app/Providers/AppServiceProvider.php"
+		"/C/wamp64/www/myapp/routes/console.php"
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 25.0
 	},
 	"find_in_files":
 	{
@@ -392,7 +388,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -414,6 +410,9 @@
 						],
 						"settings":
 						{
+							"SL.13.region_keys":
+							[
+							],
 							"auto_complete": false,
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
@@ -581,10 +580,10 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 144.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -606,6 +605,9 @@
 						],
 						"settings":
 						{
+							"SL.14.region_keys":
+							[
+							],
 							"auto_complete": false,
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
@@ -775,10 +777,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 160.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -794,12 +796,16 @@
 						"selection":
 						[
 							[
-								452,
-								452
+								422,
+								422
 							]
 						],
 						"settings":
 						{
+							"SL.15.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
 							"auto_complete": false,
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
@@ -972,7 +978,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -980,7 +986,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 24.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -1021,7 +1027,7 @@
 	"project": "APIRestful.sublime-project",
 	"replace":
 	{
-		"height": 44.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
