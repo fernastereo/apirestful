@@ -26,6 +26,10 @@ class Product extends Model
     	'seller_id',
     ];
 
+    protected $hidden = [
+        'pivot'
+    ];
+    
     public function estaDisponible(){
     	//Esta funcion devolverá falso o verdadero, aqui lo que esta haciendo es comparar la propiedad estatus de un producto dado contra la constante PRODUCTO_DISPONIBLE, si es igual devuelve true, sino false
     	return $this->status == Product::PRODUCTO_DISPONIBLE;
