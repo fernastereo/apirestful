@@ -103,25 +103,16 @@
 			"file": "routes/api.php",
 			"settings":
 			{
-				"buffer_size": 1854,
+				"buffer_size": 2664,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/Http/Controllers/Buyer/BuyerCategoryController.php",
+			"file": "app/Http/Controllers/Seller/SellerProductController.php",
 			"settings":
 			{
-				"buffer_size": 590,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Controllers/Buyer/BuyerProductController.php",
-			"settings":
-			{
-				"buffer_size": 474,
+				"buffer_size": 1702,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -200,10 +191,29 @@
 	"expanded_folders":
 	[
 		"/C/Users/Fernast/Documents/Laravel/apirestful",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app"
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Buyer",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Category",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Product",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Seller",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/public"
 	],
 	"file_history":
 	[
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Category/CategorySellerController.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Buyer/BuyerCategoryController.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Category/CategoryTransactionController.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Seller/SellerTransactionController.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Seller/SellerCategoryController.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Seller/SellerBuyerController.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Category/CategoryBuyerController.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Category.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Product.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Category/CategoryProductController.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Buyer/BuyerSellerController.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Buyer/BuyerProductController.php",
 		"/C/Users/Fernast/AppData/Roaming/Sublime Text 3/Packages/User/PHP Companion.sublime-settings",
 		"/C/Users/Fernast/AppData/Roaming/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/.env",
@@ -319,19 +329,7 @@
 		"/C/wamp64/www/apirestful/config/database.php",
 		"/C/wamp64/www/apirestful/app/Providers/AppServiceProvider.php",
 		"/C/wamp64/www/apirestful/Vagrantfile",
-		"/C/Windows/System32/drivers/etc/hosts",
-		"/C/wamp64/www/myapp/app/Http/Controllers/ArticleController.php",
-		"/C/wamp64/www/myapp/app/Http/Controllers/Auth/LoginController.php",
-		"/C/wamp64/www/myapp/app/User.php",
-		"/C/wamp64/www/myapp/database/factories/UserFactory.php",
-		"/C/wamp64/www/myapp/tests/TestCase.php",
-		"/C/wamp64/www/myapp/routes/api.php",
-		"/C/wamp64/www/myapp/app/Http/Controllers/Auth/RegisterController.php",
-		"/C/wamp64/www/myapp/composer.json",
-		"/C/wamp64/www/myapp/phpunit.xml",
-		"/C/wamp64/www/myapp/config/database.php",
-		"/C/wamp64/www/myapp/app/Exceptions/Handler.php",
-		"/C/wamp64/www/myapp/routes/console.php"
+		"/C/Windows/System32/drivers/etc/hosts"
 	],
 	"find":
 	{
@@ -388,7 +386,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -397,21 +395,22 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1854,
+						"buffer_size": 2664,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1141,
-								1141
+								2567,
+								2567
 							]
 						],
 						"settings":
 						{
 							"SL.13.region_keys":
 							[
+								"sublime_linter.protected_regions"
 							],
 							"auto_complete": false,
 							"bracket_highlighter.busy": false,
@@ -580,402 +579,42 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 144.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/Http/Controllers/Buyer/BuyerCategoryController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 590,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								534,
-								534
-							]
-						],
-						"settings":
-						{
-							"SL.14.region_keys":
-							[
-							],
-							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										534,
-										535
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										533,
-										534
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 160.0,
+						"translation.y": 224.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/Http/Controllers/Buyer/BuyerProductController.php",
+					"buffer": 1,
+					"file": "app/Http/Controllers/Seller/SellerProductController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 474,
+						"buffer_size": 1702,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								422,
-								422
+								670,
+								670
 							]
 						],
 						"settings":
 						{
-							"SL.15.region_keys":
+							"SL.37.region_keys":
 							[
 								"sublime_linter.protected_regions"
 							],
 							"auto_complete": false,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.clone": -1,
-							"bracket_highlighter.clone_locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.clone_regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										462,
-										463
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"region.yellowish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										452,
-										453
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 288.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
