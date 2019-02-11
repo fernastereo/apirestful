@@ -30,6 +30,6 @@ class UserMailChanged extends Mailable
      */
     public function build()
     {
-        return $this->text('emails.confirm')->subject('Confirme nuevo correo');
+        return $this->markdown('emails.confirm')->subject('Confirme nuevo correo');
     }
 }

@@ -1,4 +1,12 @@
-Hola {{ $user->name}}
+@component('mail::message')
+# Hola {{ $user->name}}
+
 Has cambiado tu cuenta de correo electrónico, favor verificala en el siguiente link:
 
-{{ route('verify', $user->verification_token) }}"
+@component('mail::button', ['url' => 'route('verify', $user->verification_token)'])
+Confirmar Cuenta
+@endcomponent
+
+Thanks,<br>
+{{ config('app.name') }}
+@endcomponent
