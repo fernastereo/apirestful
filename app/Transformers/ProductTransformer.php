@@ -46,7 +46,7 @@ class ProductTransformer extends TransformerAbstract
                     'rel' => 'seller',
                     'href' => route('sellers.show', $product->seller_id),
                 ],
-            ],            
+            ],
         ];
     }
 
