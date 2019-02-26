@@ -4,12 +4,28 @@
 		"selected_items":
 		[
 			[
-				"perPa",
-				"$perPage〔variable〕"
+				"tra",
+				"$transformedErrors〔variable〕"
+			],
+			[
+				"tran",
+				"$transformedField〔variable〕"
 			],
 			[
 				"trans",
-				"$transformer〔variable〕"
+				"$transformedErrors〔variable〕"
+			],
+			[
+				"trasn",
+				"$transformedInput〔variable〕"
+			],
+			[
+				"query",
+				"queryParams"
+			],
+			[
+				"perPa",
+				"$perPage〔variable〕"
 			],
 			[
 				"transfor",
@@ -137,11 +153,12 @@
 			}
 		},
 		{
-			"file": "app/Traits/ApiResponser.php",
+			"file": "app/Http/Middleware/TransformInput.php",
 			"settings":
 			{
-				"buffer_size": 2637,
-				"line_ending": "Windows"
+				"buffer_size": 1197,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -219,20 +236,31 @@
 	[
 		"/C/Users/Fernast/Documents/Laravel/apirestful",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Mail",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Providers",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Traits",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Category",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/User",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Middleware",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Transformers",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/config"
 	],
 	"file_history":
 	[
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Traits/ApiResponser.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Transformers/BuyerTransformer.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Transformers/CategoryTransformer.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Transformers/ProductTransformer.php",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Transformers/BuyerTransformer.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Transformers/SellerTransformer.php",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Transformers/TransactionTransformer.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Transformers/UserTransformer.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Transformers/TransactionTransformer.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Traits/ApiResponser.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Middleware/TransformInput.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Kernel.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/User/UserController.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Seller/SellerProductController.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Product/ProductTransactionController.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Product/ProductCategoryController.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Category/CategoryController.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/ApiController.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Buyer.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Category.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Product.php",
@@ -241,11 +269,9 @@
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/User.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Providers/AppServiceProvider.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Middleware/SignatureMiddleware.php",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Kernel.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/config/app.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/.env",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/User/UserController.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Mail/UserMailChanged.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/resources/views/emails/welcome.blade.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/resources/views/emails/confirm.blade.php",
@@ -257,12 +283,9 @@
 		"/C/Users/Fernast/Documents/Laravel/apirestful/config/services.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/config/mail.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/routes/api.php",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Seller/SellerProductController.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/config/filesystems.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/public/img/.gitignore",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Product/ProductCategoryController.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Product/ProductBuyerTransactionController.php",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Product/ProductTransactionController.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Product/ProductBuyerController.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/vendor/symfony/http-kernel/Exception/HttpException.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Category/CategorySellerController.php",
@@ -350,10 +373,7 @@
 		"/C/wamp64/logs/apache_error.log",
 		"/C/wamp64/www/Sayreh/application/views/backend/admin/empleado_add.php",
 		"/C/wamp64/www/Sayreh/application/views/backend/admin/empleado_datos_laborales.php",
-		"/C/wamp64/www/Sayreh/application/views/backend/admin/empleado_datos_cuenta.php",
-		"/C/Users/Fernast/Desktop/Jean/usbwebserver_v8.6.1/usbwebserver/root/Sayreh/application/controllers/Admin.php",
-		"/C/Users/Fernast/Downloads/ActionHandler.aspx",
-		"/C/wamp64/www/apirestful/app/Product.php"
+		"/C/wamp64/www/Sayreh/application/views/backend/admin/empleado_datos_cuenta.php"
 	],
 	"find":
 	{
@@ -371,6 +391,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sellers",
+			"buyer",
+			"buyers",
+			"transaction",
+			"transactions",
+			"product",
+			"products",
+			"category",
+			"categories",
 			"buyer",
 			"user",
 			"usuario",
@@ -445,7 +474,7 @@
 							"syntax": "Packages/PHP/PHP.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 144.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -453,31 +482,34 @@
 				},
 				{
 					"buffer": 1,
-					"file": "app/Traits/ApiResponser.php",
-					"semi_transient": true,
+					"file": "app/Http/Middleware/TransformInput.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2637,
+						"buffer_size": 1197,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								861,
+								861
 							]
 						],
 						"settings":
 						{
-							"SL.41.region_keys":
+							"SL.37.region_keys":
 							[
+								"sublime_linter.protected_regions"
 							],
+							"auto_complete": false,
 							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1200.0,
+						"translation.y": 187.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
