@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"with",
+				"withErrors〔function〕"
+			],
+			[
+				"withI",
+				"withInput"
+			],
+			[
 				"tra",
 				"$transformedErrors〔variable〕"
 			],
@@ -143,24 +151,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "routes/api.php",
-			"settings":
-			{
-				"buffer_size": 3263,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Http/Middleware/TransformInput.php",
-			"settings":
-			{
-				"buffer_size": 1197,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -234,18 +224,23 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Fernast/Documents/Laravel/apirestful",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Category",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/User",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Middleware",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Transformers",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/config"
 	],
 	"file_history":
 	[
+		"/C/Users/Fernast/Documents/Laravel/apirestful/routes/api.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/config/auth.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Providers/AuthServiceProvider.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/routes/web.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/config/app.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/User.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/vendor/laravel/passport/src/HasApiTokens.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/resources/views/welcome.blade.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/resources/views/auth/login.blade.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Exceptions/Handler.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/composer.json",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/resources/views/layouts/app.blade.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Middleware/TransformInput.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Transformers/BuyerTransformer.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Transformers/CategoryTransformer.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Transformers/ProductTransformer.php",
@@ -253,7 +248,6 @@
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Transformers/UserTransformer.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Transformers/TransactionTransformer.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Traits/ApiResponser.php",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Middleware/TransformInput.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Kernel.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/User/UserController.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Seller/SellerProductController.php",
@@ -266,11 +260,9 @@
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Product.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Seller.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Transaction.php",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/app/User.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Providers/AppServiceProvider.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Middleware/SignatureMiddleware.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/config/app.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/.env",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Mail/UserMailChanged.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/resources/views/emails/welcome.blade.php",
@@ -282,7 +274,6 @@
 		"/C/Users/Fernast/Documents/Laravel/apirestful/database/seeds/DatabaseSeeder.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/config/services.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/config/mail.php",
-		"/C/Users/Fernast/Documents/Laravel/apirestful/routes/api.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/config/filesystems.php",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/public/img/.gitignore",
 		"/C/Users/Fernast/Documents/Laravel/apirestful/app/Http/Controllers/Product/ProductBuyerTransactionController.php",
@@ -363,17 +354,7 @@
 		"/C/wamp64/www/testVoyager/.env",
 		"/C/wamp64/logs/php_error.log",
 		"/C/wamp64/www/Sayreh/application/config/database.php",
-		"/C/wamp64/www/Sayreh/application/views/backend/admin/liq_edit.php",
-		"/C/wamp64/www/Sayreh/application/models/Crud_model.php",
-		"/C/wamp64/www/Sayreh/application/views/backend/admin/liq_add.php",
-		"/C/wamp64/www/Sayreh/application/views/backend/admin/nomina_add.php",
-		"/C/wamp64/www/Sayreh/application/controllers/Admin.php",
-		"/C/wamp64/www/Sayreh/application/controllers/Modal.php",
-		"/C/wamp64/www/Sayreh/application/views/backend/admin/nomina_list.php",
-		"/C/wamp64/logs/apache_error.log",
-		"/C/wamp64/www/Sayreh/application/views/backend/admin/empleado_add.php",
-		"/C/wamp64/www/Sayreh/application/views/backend/admin/empleado_datos_laborales.php",
-		"/C/wamp64/www/Sayreh/application/views/backend/admin/empleado_datos_cuenta.php"
+		"/C/wamp64/www/Sayreh/application/views/backend/admin/liq_edit.php"
 	],
 	"find":
 	{
@@ -391,6 +372,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"auth",
 			"sellers",
 			"buyer",
 			"buyers",
@@ -441,80 +423,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "routes/api.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3263,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3263,
-								3263
-							]
-						],
-						"settings":
-						{
-							"SL.13.region_keys":
-							[
-							],
-							"SL.17.region_keys":
-							[
-								"sublime_linter.protected_regions"
-							],
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 144.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/Http/Middleware/TransformInput.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1197,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								861,
-								861
-							]
-						],
-						"settings":
-						{
-							"SL.37.region_keys":
-							[
-								"sublime_linter.protected_regions"
-							],
-							"auto_complete": false,
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 187.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
